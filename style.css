@@ -19,3 +19,9 @@
     background: #007bb5;
     color: white;
 }
+
+.middle_align{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+}
