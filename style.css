@@ -40,7 +40,7 @@
     font-size: 5vw;
     letter-spacing: -5px;
     text-transform: uppercase;
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animated_text 6s ease-in-out infinite;
     -moz-animation: animated_text 6s ease-in-out infinite;
