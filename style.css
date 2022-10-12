@@ -22,6 +22,6 @@
 
 .middle_align{
         justify-content: center;
-        align-items: center;
+        align-items: end;
         display: flex;
 }
