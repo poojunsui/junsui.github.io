@@ -117,12 +117,12 @@
 
 /* PROGRESS BARS */
 p > div{
-    height: 20px;
+    height: 50px;
     border-radius: 25px;
 }
 
 .pb {
-    width: 30%;
+    width: 50%;
     margin-left: 10%;
     border: 3px solid #2B0413;
     background-color: grey;
