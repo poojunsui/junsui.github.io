@@ -166,7 +166,7 @@
    width: 100%;
    float: left;
    font-size: 54px;
-   color: #ffffff;
+   color: black;
    font-weight: bold;
    padding-top: 100px;
 }
@@ -232,7 +232,7 @@ p.lorem_text {
     background: #c2a20e;
 }
 .carousel-indicators li {
-    background-color: #fcfcfc;
+    background-color: black;
     border: 0px; 
     width: 25px;
     height: 25px;
