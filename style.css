@@ -31,6 +31,7 @@
 .header {
     position: absolute;
     /* top: 50%; */
+    top: 10%;
     left: 30%;
     transform: translate(-50%, -50%);
     background: linear-gradient(-45deg, #DFB79E, #DFB79E, #2B0413, #2B0413, #E25D52, #E25D52);
@@ -65,12 +66,16 @@
 
 /* ABOUT ME SECTION */
 .basic-1 {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 3rem;
 }
 
 .basic-1 .text-container {
 	margin-bottom: 3rem;
+}
+
+.text-container > p{
+    text-align: justify;
 }
 
 .basic-1 .section-title {
