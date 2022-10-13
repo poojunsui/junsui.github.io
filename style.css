@@ -58,6 +58,12 @@
     }
 }
 
+/* CONTENT */
+.content {
+    background-color: beige;
+}
+
+/* ABOUT ME SECTION */
 .basic-1 {
 	padding-top: 6.5rem;
 	padding-bottom: 3rem;
@@ -87,7 +93,7 @@
 
 .basic-1 .image-container img {
 	margin: 0;
-	border-radius: 0.25rem;
+	border-radius: 50%;
 	transition: all 0.3s;
 }
 
