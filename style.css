@@ -71,9 +71,9 @@
 }
 
 .basic-1 .text-container {
-	margin-bottom: 3rem;
+	/* margin-bottom: 3rem; */
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 .text-container > p{
