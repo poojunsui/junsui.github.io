@@ -119,7 +119,7 @@
 
 
 /* PROGRESS BARS */
-p > div{
+div {
     height: 25px;
     border-radius: 25px;
 }
