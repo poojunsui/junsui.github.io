@@ -33,6 +33,7 @@
     /* top: 50%; */
     top: 10%;
     left: 50%;
+    text-align: center;
     /* transform: translate(-50%, -50%); */
     background: linear-gradient(-45deg, #DFB79E, #DFB79E, #2B0413, #2B0413, #E25D52, #E25D52);
     background-size: 300%;
