@@ -119,7 +119,7 @@
 
 
 /* PROGRESS BARS */
-div {
+.container_pb {
     height: 25px;
     border-radius: 25px;
 }
