@@ -120,7 +120,7 @@
 
 /* PROGRESS BARS */
 /* p > div{
-    height: 100px;
+    height: 25px;
     border-radius: 25px;
 } */
 
@@ -158,7 +158,7 @@
     animation-fill-mode: inherit;
 }
 
-@keyframes progress_LM {
+@keyframes .progress_Python .progress_BE {
     0% {
         width: 0%;
     }
