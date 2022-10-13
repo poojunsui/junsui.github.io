@@ -159,8 +159,9 @@
 }
 
 .image_1{
-    width: 100%;
+    width: 50%;
     float: left;
+    border-radius: 25%;
 }
 .achive_text {
    width: 100%;
