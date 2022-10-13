@@ -147,5 +147,16 @@
     }
 }
 
+/* BANNER */
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 162px;
+    background-size: 100%;
+}
+
 
 
