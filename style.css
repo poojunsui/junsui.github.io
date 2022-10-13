@@ -148,7 +148,7 @@
     }
 }
 
-.progress_Python .progress_BE {
+.pb_Python .progress_BE {
     width: 70%;
     background-color: #FFF9EE;
     animation: progress 5s;
