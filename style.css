@@ -148,7 +148,7 @@
     }
 }
 
-/* .progress_Python .progress_BE {
+.progress_Python .progress_BE {
     width: 70%;
     background-color: #FFF9EE;
     animation: progress 5s;
@@ -156,7 +156,7 @@
     animation-fill-mode: inherit;
 }
 
-@keyframes .progress_Python .progress_BE {
+/* @keyframes progress_Python progress_BE {
     0% {
         width: 0%;
     }
