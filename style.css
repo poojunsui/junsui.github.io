@@ -30,7 +30,7 @@
 /* HEADER GRADIENT ANIMATIONS */
 .header {
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     transform: translate(-50%, -50%);
     background: linear-gradient(-45deg, #DFB79E, #DFB79E, #2B0413, #2B0413, #E25D52, #E25D52);
     background-size: 300%;
@@ -59,7 +59,7 @@
 
 /* CONTENT */
 .content {
-    background-color:cornsilk ;
+    background-color:#F6F1E7;
 }
 
 /* ABOUT ME SECTION */
@@ -94,7 +94,6 @@
 	margin: 0;
 	border-radius: 50%;
 	transition: all 0.3s;
-    width: 70%;
 }
 
 .basic-1 .image-container:hover img {
