@@ -119,10 +119,6 @@
 
 
 /* PROGRESS BARS */
-.container_pb {
-    height: 25px;
-    border-radius: 25px;
-}
 
 .pb {
     width: 80%;
@@ -136,19 +132,19 @@
 .progress_LM {
     width: 80%;
     background-color: #FFF9EE;
-    animation: progress 5s;
+    /* animation: progress 5s;
     animation-iteration-count: 1;
-    animation-fill-mode: inherit;
+    animation-fill-mode: inherit; */
 }
 
-@keyframes progress_LM {
+/* @keyframes progress_LM {
     0% {
         width: 0%;
     }
     80% {
         width: 80%;
     }
-}
+} */
 
 /* .progress_Python .progress_BE {
     width: 70%;
