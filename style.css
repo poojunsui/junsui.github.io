@@ -73,11 +73,14 @@
 .basic-1 .text-container {
 	/* margin-bottom: 3rem; */
     padding-left: 10px;
-    padding-right: 50px;
+}
+.text-container > h2{
+    padding-right: 30px;
 }
 
 .text-container > p{
     text-align: justify;
+    padding-right: 50px;
 }
 
 .basic-1 .section-title {
