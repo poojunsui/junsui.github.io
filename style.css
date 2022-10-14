@@ -156,7 +156,7 @@
   
   .slider {
     width: 50%;
-    min-height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -178,8 +178,8 @@
   
     .slider__content {
       position: absolute;
-      width: 500%;
-      height: 100%;
+      width: 50%;
+      height: auto;
   
       display: flex;
       justify-content: center;
