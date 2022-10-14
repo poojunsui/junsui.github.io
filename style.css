@@ -157,8 +157,8 @@
   .main {
     display: grid;
     place-content: center;
-    width: 100vw;
-    height: 100vh;
+    width: 50%;
+    /* height: 100vh; */
   }
   
   .slideshow {
