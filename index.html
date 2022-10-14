@@ -119,56 +119,57 @@
       <!-- HOBBIES -->
       <div id="skills_section" class="basic-1"></div>
       <div class="header">HOBBIES</div>
-      <div class="slider">
-        <input type="radio" name="slider" checked />
-        <div class="slider__content">
-          <img src="https://i.ibb.co/R9zTS4w/image.jpg" />
-          <div class="slider__description">
-            <h1>Slide One</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptates, aspernatur accusantium, animi consectetur odio
-              exercitationem et blanditiis deserunt obcaecati earum soluta error
-              aliquam. Ab sunt pariatur quos aperiam! Iure, sequi?
-            </p>
       
+
+      <main class="main">
+        <section class="slideshow">
+          <div class="slide fade is-active">
+            <span class="slide-number">1 / 3</span>
+            <figure class="slide-image">
+              <img
+                src="https://www.w3schools.com/howto/img_nature_wide.jpg"
+                alt="Mountain"
+              />
+              <figcaption>First image</figcaption>
+            </figure>
           </div>
-        </div>
-        <input type="radio" name="slider" />
-        <div class="slider__content">
-          <img src="https://i.ibb.co/MB1cjm0/image.jpg" />
-          <div class="slider__description">
-            <h1>Slide Two</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptates, aspernatur accusantium, animi consectetur odio
-              exercitationem et blanditiis deserunt obcaecati earum soluta error
-              aliquam. Ab sunt pariatur quos aperiam! Iure, sequi?
-            </p>
       
+          <div class="slide fade">
+            <span class="slide-number">2 / 3</span>
+            <figure class="slide-image">
+              <img
+                src="https://www.w3schools.com/howto/img_snow_wide.jpg"
+                alt="Snow"
+              />
+              <figcaption>Second image</figcaption>
+            </figure>
           </div>
-        </div>
-        <input type="radio" name="slider" />
-        <div class="slider__content">
-          <img src="https://i.ibb.co/Rz7JhHy/image.jpg
-                " />
-          <div class="slider__description">
-            <h1>Slide Three</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptates, aspernatur accusantium, animi consectetur odio
-              exercitationem et blanditiis deserunt obcaecati earum soluta error
-              aliquam. Ab sunt pariatur quos aperiam! Iure, sequi?
-            </p>
       
+          <div class="slide fade">
+            <span class="slide-number">3 / 3</span>
+            <figure class="slide-image">
+              <img
+                src="https://www.w3schools.com/howto/img_mountains_wide.jpg"
+                alt="Snow"
+              />
+              <figcaption>Third image</figcaption>
+            </figure>
           </div>
-        </div>
       
+          <div class="controls">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
           </div>
-        </div>
-      </div>
       
-    </div>
+          <div class="dots-container">
+            <span class="dot is-active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </section>
+      </main>
+      
+    
 
 
 
