@@ -121,55 +121,6 @@
       <div class="header">HOBBIES TRY</div>
       
 
-      <div class="main">
-        <section class="slideshow">
-          <div class="slide fade is-active">
-            <!-- <span class="slide-number">1 / 3</span> -->
-            <figure class="slide-image">
-              <img
-                src="images/dance_1.jpg"
-                alt="dance"
-              />
-              <figcaption>First image</figcaption>
-            </figure>
-          </div>
-      
-          <div class="slide fade">
-            <!-- <span class="slide-number">2 / 3</span> -->
-            <figure class="slide-image">
-              <img
-                src="https://www.w3schools.com/howto/img_snow_wide.jpg"
-                alt="Snow"
-              />
-              <figcaption>Second image</figcaption>
-            </figure>
-          </div>
-      
-          <div class="slide fade">
-            <!-- <span class="slide-number">3 / 3</span> -->
-            <figure class="slide-image">
-              <img
-                src="https://www.w3schools.com/howto/img_mountains_wide.jpg"
-                alt="Snow"
-              />
-              <figcaption>Third image</figcaption>
-            </figure>
-          </div>
-      
-          <div class="controls">
-            <button class="prev">&#10094;</button>
-            <button class="next">&#10095;</button>
-          </div>
-      
-          <div class="dots-container">
-            <span class="dot is-active" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-        </section>
-      </div>
-      
-    
 
 
 
@@ -177,44 +128,6 @@
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script>
-        const prevBtn = document.querySelector(".prev");
-        const nextBtn = document.querySelector(".next");
-        const dots = Array.from(document.querySelectorAll(".dot"));
-
-        let slideIndex = 1;
-
-        function plusSlides(e) {
-          let num;
-
-          if (e.target === prevBtn) num = -1;
-          if (e.target === nextBtn) num = 1;
-
-          showSlides((slideIndex += num));
-        }
-
-        function currentSlide(e) {
-          if (e.target === dots[0]) showSlides((slideIndex = 1));
-          if (e.target === dots[1]) showSlides((slideIndex = 2));
-          if (e.target === dots[2]) showSlides((slideIndex = 3));
-        }
-
-        function showSlides(n) {
-          const slides = Array.from(document.querySelectorAll(".slide"));
-
-          if (n > slides.length) slideIndex = 1;
-          if (n < 1) slideIndex = slides.length;
-
-          slides.forEach((slide) => slide.classList.remove("is-active"));
-          dots.forEach((dot) => dot.classList.remove("is-active"));
-
-          slides[slideIndex - 1].classList.add("is-active");
-          dots[slideIndex - 1].classList.add("is-active");
-        }
-
-        prevBtn.addEventListener("click", plusSlides);
-        nextBtn.addEventListener("click", plusSlides);
-        dots.forEach((dot) => dot.addEventListener("click", currentSlide));
-    </script>
+    
   </body>
 </html>
