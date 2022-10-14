@@ -195,10 +195,10 @@
 
 }
 .slide:nth-of-type(1){
-    background-image: url('https://cdn.wallpapersafari.com/68/12/9a2wy5.jpeg')
+    background-image: url('images/dance_1.jpg')
 }
 .slide:nth-of-type(2){
-    background-image: url('https://cdn.wallpapersafari.com/3/53/0xgnyc.jpg')
+    background-image: url('images/dance_2.jpg')
 }
 .slide:nth-of-type(3){
     background-image: url('https://mcdn.wallpapersafari.com/medium/28/35/fslPOF.jpg')
