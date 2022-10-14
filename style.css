@@ -157,7 +157,7 @@
   .slider {
     width: 50%;
     height: auto;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: flex-end;
     background-color: black;
@@ -177,7 +177,7 @@
     }
   
     .slider__content {
-      position: absolute;
+      /* position: absolute; */
       width: 50%;
       height: auto;
   
@@ -197,7 +197,7 @@
       } */
   
       .slider__description {
-        position: relative;
+        /* position: relative; */
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         color: #fff;
