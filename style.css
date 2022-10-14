@@ -170,24 +170,24 @@
     display: none;
   }
   
-  .slide-number {
+  /* .slide-number {
     position: absolute;
     top: 12px;
     left: 12px;
     z-index: 1;
     font-size: 1.6rem;
     color: white;
-  }
+  } */
   
   .slide-image {
     position: relative;
     display: flex;
-    width: 100%;
-    max-width: 1000px;
+    width: 80%;
+    /* max-width: 1000px; */
   }
   
   .slide-image img {
-    width: 100%;
+    width: 80%;
   }
   
   .slide-image figcaption {
@@ -224,7 +224,7 @@
   }
   
   .controls button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #DFB79E;
   }
   
   .dots-container {
